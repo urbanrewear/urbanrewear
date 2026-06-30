@@ -1,1 +1,1 @@
-Urban Rewear Coming Soon v1.5
+Urban Rewear Coming Soon
