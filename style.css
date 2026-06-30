@@ -36,10 +36,10 @@ body{
 
     background:linear-gradient(
       135deg,
-      #04111F 0%,
-      #08223F 35%,
-      #0A345A 70%,
-      #0F7E86 100%
+      #02101E,
+      #06213D,
+      #0B355D,
+      #0C6F78
 );
 
     background-size:400% 400%;
