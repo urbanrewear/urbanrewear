@@ -125,7 +125,7 @@ Glass Card
 .glass-card{
 
 width:100%;
-max-width:850px;
+max-width:760px;
 
 padding:55px;
 
@@ -154,7 +154,7 @@ Logo
 
 .logo{
 
-width:330px;
+width:380px;
 
 max-width:90%;
 
@@ -628,5 +628,24 @@ font-size:32px;
 padding:30px;
 
 }
+
+}
+.service-card,
+.trust-card,
+.contact-card{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.8s;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
 
 }
