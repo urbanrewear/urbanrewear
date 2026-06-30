@@ -35,11 +35,11 @@ body{
     z-index:-5;
 
     background:linear-gradient(
-      135deg,
-      #02101E,
-      #06213D,
-      #0B355D,
-      #0C6F78
+    135deg,
+    #08121F,
+    #0A2745,
+    #12476B,
+    #169E97
 );
 
     background-size:400% 400%;
@@ -72,7 +72,7 @@ left:-180px;
 
 border-radius:50%;
 
-background:rgba(255,255,255,.06);
+background:rgba(255,255,255,.14);
 
 filter:blur(90px);
 
@@ -135,11 +135,11 @@ background:rgba(255,255,255,.08);
 
 backdrop-filter:blur(22px);
 
-border:1px solid rgba(255,255,255,.12);
+border:1px solid rgba(255,255,255,.22);
 
 box-shadow:
 
-0 30px 70px rgba(0,0,0,.30);
+0 35px 80px rgba(0,0,0,.45);
 
 text-align:center;
 
