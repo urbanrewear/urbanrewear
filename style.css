@@ -1,0 +1,16 @@
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Poppins,sans-serif;background:#081b33;color:#fff;overflow-x:hidden}
+.bg{position:fixed;inset:0;background:linear-gradient(-45deg,#081b33,#0f4c81,#0d9488,#10b981);background-size:400% 400%;animation:g 14s ease infinite;z-index:-3}
+@keyframes g{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
+.bubbles span{position:fixed;bottom:-100px;width:20px;height:20px;background:rgba(255,255,255,.15);border-radius:50%;animation:up 15s linear infinite}.bubbles span:nth-child(2){left:20%;animation-duration:18s}.bubbles span:nth-child(3){left:60%;width:35px;height:35px}.bubbles span:nth-child(4){left:80%;animation-duration:12s}
+@keyframes up{to{transform:translateY(-120vh)}}
+.hero{min-height:100vh;display:flex;justify-content:center;align-items:center;padding:40px}
+.card{max-width:760px;width:100%;padding:40px;border-radius:28px;background:rgba(255,255,255,.08);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.15);text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.logo{max-width:320px;width:80%;animation:f 4s ease-in-out infinite}
+@keyframes f{50%{transform:translateY(-8px)}}
+.badge{display:inline-block;background:#10b981;padding:10px 20px;border-radius:30px;font-weight:600;margin:20px 0}
+h1{font-size:58px}h1 span{color:#49e0c2}.tag{font-size:28px;font-weight:600;margin:10px 0}.desc{font-size:19px;opacity:.95;margin:20px auto;max-width:600px}
+.buttons{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;margin:30px 0}.btn{text-decoration:none;padding:15px 28px;border-radius:40px;font-weight:700;transition:.3s}.btn:hover{transform:translateY(-4px)}.wa{background:#25D366;color:#fff}.call{background:#fff;color:#081b33}.mail{background:#0d9488;color:#fff}
+.trust{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}.trust div{background:rgba(255,255,255,.08);padding:12px;border-radius:12px}
+.services{padding:80px 20px}.services h2{text-align:center;margin-bottom:30px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;max-width:900px;margin:auto}.grid div{background:rgba(255,255,255,.08);padding:25px;border-radius:18px;text-align:center}
+footer{text-align:center;padding:40px 20px;background:rgba(0,0,0,.15)}
+@media(max-width:768px){h1{font-size:40px}.tag{font-size:22px}.trust{grid-template-columns:1fr}.logo{max-width:240px}}

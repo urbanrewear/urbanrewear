@@ -1,0 +1,1 @@
+document.querySelectorAll('.btn').forEach(b=>b.addEventListener('mouseenter',()=>b.style.boxShadow='0 12px 30px rgba(0,0,0,.25)'));
