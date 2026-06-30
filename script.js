@@ -1,0 +1,1 @@
+function notifyMe(){const e=document.querySelector('input').value;document.getElementById('msg').innerText=e?'Thanks! We will notify you before launch.':'Please enter your email.';}
