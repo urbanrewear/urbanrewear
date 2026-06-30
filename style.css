@@ -35,12 +35,12 @@ body{
     z-index:-5;
 
     background:linear-gradient(
-        135deg,
-        #081B33,
-        #0B2343,
-        #0F4C81,
-        #10B981
-    );
+      135deg,
+      #04111F 0%,
+      #08223F 35%,
+      #0A345A 70%,
+      #0F7E86 100%
+);
 
     background-size:400% 400%;
 
